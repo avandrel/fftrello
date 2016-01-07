@@ -1,0 +1,16 @@
+{
+  "title": "FF_Trello",
+  "name": "fftrello",
+  "version": "0.0.1",
+  "description": "Push url to Wywiad's Trello Board",
+  "main": "index.js",
+  "author": "avandrel",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
