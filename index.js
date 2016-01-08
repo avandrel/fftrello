@@ -4,8 +4,8 @@ var Request = require("sdk/request").Request;
 var notifications = require("sdk/notifications");
 
 var token = "02T80GqJBJ5jdFVrwBXWDRI2";
-//var url = "http://ditrello.mgpm.pl/create";
-var url = "http://localhost:9292/create";
+var url = "http://ditrello.mgpm.pl/create";
+//var url = "http://localhost:9292/create";
 
 function show_response(responseText) {
 	console.log(responseText);
@@ -19,7 +19,7 @@ function show_response(responseText) {
 function post(text) {
   Request({
       url: url,
-      content: "token="+token+'&text="'+text+'"',
+      content: "token="+token+'&text="'+encodeURIComponent(text)+'"',
       onComplete: function (response) {
         show_response(response.text);
       }

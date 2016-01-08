@@ -1,7 +1,7 @@
 {
   "title": "FF_Trello",
   "name": "fftrello",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Push url to Wywiad's Trello Board",
   "main": "index.js",
   "author": "avandrel",
