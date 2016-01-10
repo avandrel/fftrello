@@ -1,8 +1,8 @@
 {
-  "title": "FF_Trello",
-  "name": "fftrello",
-  "version": "0.0.5",
-  "description": "Push url to Wywiad's Trello Board",
+  "title": "CARMIN",
+  "name": "CARMIN",
+  "version": "0.0.6",
+  "description": "Wyślij link do CARMIN",
   "main": "index.js",
   "author": "avandrel",
   "engines": {

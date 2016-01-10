@@ -27,7 +27,7 @@ function post(text) {
 }
 
 var menuItemURL = contextMenu.Item({
-  label: "Send selected URL to Trello",
+  label: "Wyślij URL do CARMIN",
   image: self.data.url("ico.png"),
   context: [contextMenu.URLContext("*"), contextMenu.SelectorContext("a[href], img")],
   contentScript: 'self.on("click", function (node, data) {' +
@@ -39,7 +39,7 @@ var menuItemURL = contextMenu.Item({
 });
 
 var menuItemPage = contextMenu.Item({
-  label: "Send page URL to Trello",
+  label: "Wyślij stronę do CARMIN",
   image: self.data.url("ico.png"),
   context: contextMenu.PageContext(),
   contentScript: 'self.on("click", function (node, data) {' +
