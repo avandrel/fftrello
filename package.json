@@ -1,7 +1,7 @@
 {
   "title": "CARMIN",
   "name": "CARMIN",
-  "version": "0.0.6",
+  "version": "0.0.10",
   "description": "Wyślij link do CARMIN",
   "main": "index.js",
   "author": "avandrel",
@@ -12,5 +12,6 @@
   "license": "MIT",
   "keywords": [
     "jetpack"
-  ]
+  ],
+  "permissions": {"private-browsing": true}
 }

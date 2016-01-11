@@ -1,10 +1,10 @@
 var self = require('sdk/self');
 var contextMenu = require("sdk/context-menu");
 var Request = require("sdk/request").Request;
-var notifications = require("sdk/notifications");
+//var notifications = require("sdk/notifications");
 
 var token = "02T80GqJBJ5jdFVrwBXWDRI2";
-var url = "http://ditrello.mgpm.pl/create";
+var url = "http://carmin.mgpm.pl/create";
 //var url = "http://localhost:9292/create";
 
 function show_response(responseText) {
